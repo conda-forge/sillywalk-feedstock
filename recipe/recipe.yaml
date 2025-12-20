@@ -1,6 +1,6 @@
 context:
   name: sillywalk
-  version: "1.0.1"
+  version: "1.0.2"
   python_min: "3.11"
 
 package:
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
-  sha256: 8c6bbb436f6217e0e3f66008438d48c6c51deaf7f18a9ee8948e035e9b5269e9
+  sha256: 16cf27709e493b355567ff7a0f316324cf79b96bb7e7d723d99e0192f1441595
 
 build:
   noarch: python
@@ -33,7 +33,7 @@ requirements:
 tests:
   - python:
       imports:
-      - sillywalk
+        - sillywalk
 
 about:
   homepage: https://github.com/AnyBody-Research-Group/sillywalk
