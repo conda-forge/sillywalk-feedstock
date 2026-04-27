@@ -1,6 +1,6 @@
 context:
   name: sillywalk
-  version: "1.1.1"
+  version: "1.2.0"
   python_min: "3.11"
 
 package:
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
-  sha256: 631a3b241b338e7d56b215c55cde1d9a3598b3c3edb4d9a056c5951b810499fe
+  sha256: 2ce7667b4efdf965cdd729f866c6cc3146b9c01bc3c56f58eead117360eb71b9
 
 build:
   noarch: python
